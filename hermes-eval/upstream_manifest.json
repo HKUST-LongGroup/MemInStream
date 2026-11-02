@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/haowei-freesky/HERMES",
+  "revision": "8d699b16a6bedb9086c1b39ec4253c6a1d1ce789",
+  "sha256": {
+    "LICENSE": "1a873c33867b0b60dac95633d55dd01fafb2c0b510b73897ad95d139944c9d6b",
+    "README.md": "2d657e8244573a78baa0de89c9fbd3488da635e21623b0bc8a8c90784c0bf1c4",
+    "inference/abstract_hermes.py": "cbf62ad9f6dada32db598d7c37c27f995bbb37375e12a282a88cf4426f495dc0",
+    "inference/llavaov_hermes.py": "45fee483fbc37fe65433c84146eba42fc18dae40f6878c7a2f50fd8e55a387f0",
+    "inference/qwenvl_hermes.py": "7e7c77d262c5122f471ffe8647a0794e4d8022934ee3b4812a707a7a48bba0e0",
+    "inference/reindex_1d.py": "22ca0dee63cd7a4d00161f1fc0485143a57145862b081555598b904bbc95e0b0",
+    "inference/reindex_3d.py": "0f0ce790a91581f0ad529bd7e477b02862c98b4025b5933a1e8fcfb2326be73f",
+    "requirements_llava.txt": "b9e931ce725f49ded993ae40cdfdca0f96ff35b8bc5efc7ef64a772482c31f5c",
+    "requirements_qwen.txt": "f745da1c7af7e16509faf2de2e59c95caf2e9421d30a6d28544b346190a5c050",
+    "video_qa/base.py": "795cf98e8d1125ea934dc2c9744ba1bbd3b29701f17aae2d935f382c7343b2d5",
+    "video_qa/hermes_vqa.py": "f25bac6cd19db7148e7fa39cc9d2e96fb40d1f14709778f2490023a65dddc95b",
+    "video_qa/run_infer.py": "77653278a3e365b6ab27661f3a7629523d4b05b6c44ef8223bdfb7e93cfc675d"
+  },
+  "original_upstream_sha256": {
+    "README.md": "bde5aae40a2b361cd965b6df98488d56675970cbe98595a3e92ad95aa48ee309"
+  },
+  "public_release_changes": "Replaced machine-specific path defaults/examples with portable placeholders; source hashes above describe the bundled release."
+}

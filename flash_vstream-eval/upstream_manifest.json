@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/IVGSZ/Flash-VStream",
+  "commit": "8f6bde2f397f4846505df4d03364d97617fc02ee",
+  "files": {
+    "Flash-VStream-Qwen/README.md": "42924323cb71fb79f47b4cb43db868f076041a5fd49c20eb7dc56d5bcc30b2af",
+    "Flash-VStream-Qwen/cli_server_2gpu.py": "65bef443c0d21d3e176814dc4af29a00dce890617b95ffca58039b36835f22f5",
+    "Flash-VStream-Qwen/eval_activitynet_qa.py": "c623ba90fcb4daab579b8ea4eaa84b40faf5f425ee4c140211fe05f19563cae9",
+    "Flash-VStream-Qwen/eval_any_dataset.py": "79e77f02c55bc26c982f5e2c90f8bb0e07590b5fc1ff0a4a7f0113fbe45219ba",
+    "Flash-VStream-Qwen/finetune_flash.py": "8fc4585a28dc9fcae29cc2a8308bbf83177306c52c6cafce810e95402d92f375",
+    "Flash-VStream-Qwen/inference_mcq_vqa.py": "925eb6cc8e728eadded021e5d41055257cf21442f86db324e31da5aac91e9de2",
+    "Flash-VStream-Qwen/models/__init__.py": "a71cd61e3c3195bfe30e60b0e4594d738296d3fb02b272f165b23a90d27b9507",
+    "Flash-VStream-Qwen/models/compress_functions.py": "c8368bbec6bf79f971048dc00d43c0a521adb78d737a311b3ed65fb5c7a83efc",
+    "Flash-VStream-Qwen/models/flash_memory_constants.py": "b01bc37305a391cd94a70143296c0358fc97ae321b2e14e1588abb06b351c7c5",
+    "Flash-VStream-Qwen/models/vstream_qwen2vl_model.py": "d72662d167c819089c165ba52cef9b6996cae509e3643021c5a33c65d4f19233",
+    "Flash-VStream-Qwen/models/vstream_qwen2vl_processor.py": "82bc9bc9fd0bde5610a862dd2a155ef08251535e8181efa6cc93de64e2750ec7",
+    "Flash-VStream-Qwen/models/vstream_qwen2vl_realtime.py": "682fc4dae7fc6e011e3670254b1e3ffc0c021dd2de4117da5814b266d316d936",
+    "Flash-VStream-Qwen/qwen_vl_utils/__init__.py": "a0c454a56f2ba478731013afe1ba5d5d9caff652fe0ce51be1c315476e5c7905",
+    "Flash-VStream-Qwen/qwen_vl_utils/vision_process.py": "e6d2acdea028f985ccbfe26a4018f153a2bd136424e92c7337cbcd280377cb8d",
+    "Flash-VStream-Qwen/scripts/cli_server_2gpu.sh": "e6832401de5c6d04d529fccd4078e2f8b76ef2b13a721849b1e84c29afb77f9f",
+    "Flash-VStream-Qwen/scripts/eval.sh": "75bf8cd9bf463c6762fde1eccd39abbe37ea5f0fc14813786d5decbe480ea5d2",
+    "Flash-VStream-Qwen/scripts/extract_frames.py": "94e244989fe482938e98213a4f6ee2cc9b43549d625ed99f2a4f71bd8709d0b4",
+    "Flash-VStream-Qwen/scripts/train_and_eval.sh": "57bc98c6b2b115e7117aad7c3317f38c5f56f45cb0fe9b615fc3765146e757de",
+    "Flash-VStream-Qwen/setup.sh": "d9142eeada948f157451235110e625c7dfc9590af4bac248fe7426d86613bf77"
+  }
+}

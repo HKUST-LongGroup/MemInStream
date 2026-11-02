@@ -1,0 +1,20 @@
+# Optional recipe to reproduce upstream's pinned environment in a NEW environment.
+# Do not install this over an existing environment if you want to retain its torch.
+# Runtime accepts other installed versions with a notice; compatibility needs a GPU smoke test.
+# Upstream model/training metadata pins these inference packages.
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.50.0
+accelerate==1.4.0
+torchcodec==0.2
+# Required by the official evaluator and vision helpers.
+pandas
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+tqdm
+pillow
+requests
+av
+packaging
+# Default backend: install FlashAttention 2 after torch with a matching CUDA/Python wheel.
+# --attn-implementation sdpa needs no separate flash-attn package.

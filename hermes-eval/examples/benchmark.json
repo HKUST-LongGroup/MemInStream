@@ -1,0 +1,55 @@
+[
+  {
+    "source_dataset": "demo",
+    "source_id": "choice",
+    "video_path": "example.mp4",
+    "query_time": 8,
+    "question": "Which objects have appeared?",
+    "options": [
+      "A. A cup",
+      "B. A plate",
+      "C. A ball"
+    ],
+    "question_type": "multiple-select",
+    "correct_option": [
+      "A",
+      "C"
+    ],
+    "level2": "Occurrence Verification"
+  },
+  {
+    "source_dataset": "demo",
+    "source_id": "dialogue",
+    "video_path": "example.mp4",
+    "query_time": 12,
+    "question": "What color is the object called Nova?",
+    "options": [
+      "A. Red",
+      "B. Blue"
+    ],
+    "question_type": "multiple-choice",
+    "correct_option": "B",
+    "dialogue_events": [
+      {
+        "time": 2,
+        "role": "user",
+        "content": "Call the blue cup Nova."
+      },
+      {
+        "time": 3,
+        "role": "assistant",
+        "content": "The blue cup is Nova."
+      },
+      {
+        "time": 12,
+        "role": "assistant",
+        "content": "THIS CURRENT ANSWER MUST NOT APPEAR"
+      },
+      {
+        "time": 13,
+        "role": "assistant",
+        "content": "THIS FUTURE ANSWER MUST NOT APPEAR"
+      }
+    ]
+  }
+]

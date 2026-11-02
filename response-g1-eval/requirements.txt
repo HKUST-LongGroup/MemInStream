@@ -1,0 +1,11 @@
+# Install a CUDA-compatible PyTorch first. Upstream uses torch 2.8.0 / torchvision 0.23.0.
+transformers==4.57.1
+accelerate==1.5.2
+qwen-vl-utils==0.0.8
+opencv-python==4.12.0.88
+Pillow>=10
+# Default attention backend needs flash-attn==2.8.3 (install separately for your CUDA build).
+# Needed by the unchanged native benchmark entry points.
+pandas==2.3.2
+tqdm
+ffmpeg-python==0.2.0

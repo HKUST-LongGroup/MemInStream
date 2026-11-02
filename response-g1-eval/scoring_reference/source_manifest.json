@@ -1,0 +1,7 @@
+{
+  "origin": "local qwen-eval scoring snapshot",
+  "files": {
+    "score_predictions.py": "24f9c6bef5c1580c1e5e2d815551ac73d9c3a8fc92e18b901de42fc0c333ff89",
+    "qwen_eval_utils.py": "ba5f5118ca84ff8fa7c2942930fe501f62e2a2ad93ee450326014b5797f02248"
+  }
+}

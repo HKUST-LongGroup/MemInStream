@@ -1,0 +1,19 @@
+[
+  {
+    "source_dataset": "my-benchmark",
+    "source_id": "example-1",
+    "video_path": "example.mp4",
+    "query_time": 90,
+    "question": "Which object did the person put on the table?",
+    "options": ["A. A cup", "B. A plate", "C. A book"],
+    "correct_option": "A",
+    "question_type": "multiple-choice",
+    "level1": "Contextual Memory",
+    "level2": "Entity Identity Binding",
+    "evaluation_protocol": "backward",
+    "dialogue_events": [
+      {"time": 20, "role": "user", "content": "Let's call the person in blue Alex."},
+      {"time": 21, "role": "assistant", "content": "The person in blue is Alex."}
+    ]
+  }
+]

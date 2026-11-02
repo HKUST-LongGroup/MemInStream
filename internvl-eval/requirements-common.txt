@@ -1,0 +1,11 @@
+# Python 3.10 / 3.11, Linux + NVIDIA CUDA.
+# Install the CUDA torch/torchvision wheels first (see README).
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.52.4
+accelerate==1.7.0
+huggingface-hub==0.32.4
+safetensors==0.5.3
+numpy==1.26.4
+Pillow==11.2.1
+# ffmpeg and ffprobe are system programs, not pip dependencies.

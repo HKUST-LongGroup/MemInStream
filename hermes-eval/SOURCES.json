@@ -1,0 +1,32 @@
+{
+  "copies": {
+    "prompt_templates.py": {
+      "source": "qwen-eval-1016/prompt_templates.py",
+      "sha256": "c6b2bd6b233a3e8f1815d10196195a120ec04fb31c4d32876ee54353133b26df"
+    },
+    "qwen_eval_utils.py": {
+      "source": "qwen-eval-1016/qwen_eval_utils.py",
+      "sha256": "ba5f5118ca84ff8fa7c2942930fe501f62e2a2ad93ee450326014b5797f02248"
+    },
+    "score_predictions.py": {
+      "source": "qwen-eval-1016/score_predictions.py",
+      "sha256": "24f9c6bef5c1580c1e5e2d815551ac73d9c3a8fc92e18b901de42fc0c333ff89"
+    }
+  },
+  "fluxmem_scoring": "Unmodified fluxmem_prediction-1016/evaluate.py (functions used by evaluate.py)",
+  "shared_runtime": {
+    "source": "qwen-eval-1016/predict_filtered_qwen.py",
+    "functions": [
+      "parallel_results"
+    ],
+    "change": "Only process scheduling reused; no Qwen video/model inference logic."
+  },
+  "tests/test_reference_scoring.py": "Unmodified qwen-eval-1016/test_score_predictions.py",
+  "official_video.py": {
+    "source": [
+      "HERMES/video_qa/base.py: BaseVQA.load_video, load_video_frames",
+      "HERMES/video_qa/hermes_vqa.py: query end_frame_idx"
+    ],
+    "change": "Same sampled indices and query prefix; decode only the selected prefix; no external resize/padding; optional error-only frame cap."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "adapter": "Qwen3-VL port of the bundled FluxMem algorithm",
+  "transformers": "4.57.1",
+  "algorithm_files_copied_unchanged": [
+    "qwen3_fluxmem/fluxmem.py",
+    "qwen3_fluxmem/utils.py"
+  ],
+  "sha256": {
+    "predict.py": "8b661741c740f4f79e816264c6cb4a5d1b7b18665d0f627752fae7f3bc8babb7",
+    "prompt_templates.py": "d2366ce4cd9adef402f4e4b2a5f575a40ace3ac24035fa1644f3fac4b38a8052",
+    "qwen3_fluxmem/__init__.py": "3e67cbecede2e95376c3e9aec6a9ff4be4dd4459848686840910911823d37db5",
+    "qwen3_fluxmem/fluxmem.py": "3358ef383ce2e5d3acf5f23ce44153fc30401b99c4c7ccc3c2af8eb9594f9e53",
+    "qwen3_fluxmem/model.py": "032e3faad17f6e053aa920883d56d38980fc1a5b9fb476d2dd6ea9914edb9d73",
+    "qwen3_fluxmem/runtime.py": "902a45f84995e097b592342a3bf02fbfabc714d239ac856e2a36091b8c61be69",
+    "qwen3_fluxmem/utils.py": "20f58271a4daa23d745ffba2a124e21250bd21d8a77df4eafa82071d791512db",
+    "qwen3_fluxmem/video.py": "e2b386069fbc00f283c3c0119bbfb4b99a5adb396ba101b3fd52f7ef09cd1b0c"
+  }
+}

@@ -1,0 +1,8 @@
+# Install a CUDA-compatible torch / torchvision pair first.
+torch>=2.5
+torchvision>=0.20
+transformers==4.57.1
+accelerate>=1.2
+numpy>=1.24
+Pillow>=10
+# System executables: ffmpeg and ffprobe. flash-attn is optional.

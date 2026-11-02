@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/PolyX-Research/Response-G1",
+  "commit": "5af0abe438155d33aba69ca59f25b8b3ea9b81d7",
+  "sha256": {
+    ".gitignore": "e554bdcdd080124f8fe3a87234fdb99b22b293d3d7022e0af2df2c9c584b6018",
+    "README.md": "39e8d5b648435c7313e28412548303fb911b4e00625bd03346c1761e460d37ad",
+    "assets/Response-G1.png": "f6aba4dc2759b6f8c88d45e06de93d0b2c2f4a17ed1f47c62e71a75e8cac3343",
+    "eval_ovo_results.py": "ea0ef07756eaae5c876a9449ed73e66b4f6b2df6a0979e3b20b130abc37b5a5d",
+    "eval_ovobench_proactive.py": "33849501e02a65baafc264be693aa8a3ba92570314a7fe2c0873210d5e9ec94d",
+    "eval_ovobench_reactive.py": "995a83ad182c8607e616ca48015ccada079dc98b44c951729698b13d3bbe0da0",
+    "eval_streaming_results.py": "8c598dc1875b3cf9a032b4f142212558f6edc045213f0d4a713a196638634c83",
+    "eval_streamingbench_proactive.py": "417c37953a84c6b03811020491a74df2e055fb7627f7234d58da8258f72020ff",
+    "eval_streamingbench_reactive.py": "fcde8a173bc1716acc980fc5b4c4961ebeca944868b42a329e5bdcb719ea83d4",
+    "qwen_online/utils.py": "5219d1abcf67f63bb5461c548caaab3ef8f967bcc2cd5e1f19a2e42c3025e700",
+    "requirements.txt": "56c37ba0641e04fdbe1c8e06fc53bfccd4b80df0be64f6011619f0fd156acd3f",
+    "response_graph/Scene_Graph.py": "32d995af9e4b5e56532bf398374f45c708295f61682112823635e65004c3a56a",
+    "response_graph/Scene_Graph_ovo.py": "fe84238dac86cc44e0bb65ed41137eb554dfd098b25a493a0a630b4994ab57b6"
+  },
+  "original_upstream_sha256": {
+    "README.md": "ce822bf914a9306f048d79936969f30ab14e2480faed0781bf21ff3ff4809d0e"
+  },
+  "public_release_changes": "Replaced machine-specific path defaults/examples with portable placeholders; source hashes above describe the bundled release."
+}

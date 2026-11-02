@@ -1,0 +1,12 @@
+{
+  "source": "MemInStream/qwen-eval",
+  "sha256": {
+    "qwen_eval_utils.py": "ba5f5118ca84ff8fa7c2942930fe501f62e2a2ad93ee450326014b5797f02248",
+    "score_predictions.py": "24f9c6bef5c1580c1e5e2d815551ac73d9c3a8fc92e18b901de42fc0c333ff89",
+    "analyze_evidence.py": "c961f703a4f35d2c2dc1f52f24c60bdff8e1446b66d790283456928d8691e03e"
+  },
+  "changes": [
+    "package-relative imports",
+    "optional in-memory rows argument to analyze_file"
+  ]
+}

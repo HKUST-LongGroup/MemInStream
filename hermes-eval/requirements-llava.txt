@@ -1,0 +1,10 @@
+# LLaVA uses a different transformers revision: keep a separate environment.
+torch==2.9.1
+torchvision==0.24.1
+transformers @ git+https://github.com/huggingface/transformers.git@66bc4def9505fa7c7fe4aa7a248c34a026bb552b
+accelerate==1.11.0
+numpy==2.3.3
+pillow==11.3.0
+logzero==1.7.0
+sentencepiece==0.2.1
+decord==0.6.0

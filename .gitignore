@@ -1,0 +1,24 @@
+# Local environments, model weights and datasets
+.venv/
+venv/
+models/
+checkpoints/
+YOUR_DATASET/
+YOUR_MODEL/
+.env
+.env.*
+# Generated evaluation outputs
+results*/
+resulys*/
+logs*/
+*.log
+*.out
+*.err
+*.progress.jsonl
+*.shards/
+*.drop/
+# Python and OS caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store

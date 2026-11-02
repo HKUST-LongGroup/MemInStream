@@ -1,0 +1,15 @@
+[
+  {
+    "source_dataset": "example",
+    "source_id": "example-1",
+    "video_path": "example.mp4",
+    "query_time": 20,
+    "question": "What color is the cup?",
+    "options": ["A. Red", "B. Blue"],
+    "correct_option": "A",
+    "dialogue_events": [
+      {"time": 5, "role": "user", "content": "Which object should I track?"},
+      {"time": 6, "role": "assistant", "content": "The cup on the table."}
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+-r requirements-common.txt
+timm==1.0.15
+einops==0.8.1
+sentencepiece==0.2.0
+protobuf==5.29.4
+# flash-attn is optional; eager attention works without it.

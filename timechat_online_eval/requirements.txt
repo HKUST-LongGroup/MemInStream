@@ -1,0 +1,9 @@
+# Official eval/readme.md pins (not the older root requirement.txt).
+transformers==4.50.0
+accelerate==1.5.2
+qwen-vl-utils[decord]==0.0.10
+# Adapter environment pins.
+huggingface-hub==0.30.2
+numpy==1.26.4
+Pillow==11.1.0
+six>=1.17.0

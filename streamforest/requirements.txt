@@ -1,0 +1,3 @@
+# Use a separate Linux/CUDA Python 3.10 environment. Keep upstream versions.
+# Its eager imports require flash-attn and deepspeed even with --attn-implementation sdpa.
+-r StreamForest/requirements.txt

@@ -1,0 +1,2 @@
+-r requirements-common.txt
+# Uses the native HF model; no LLaVA source checkout, av or decord needed.

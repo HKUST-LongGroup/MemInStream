@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/yaolinli/TimeChat-Online",
+  "commit": "25a15783a6fd83e3360b3326cee44029fcce0132",
+  "files": {
+    "LICENSE": "c312d78b15aff92151e5cc514c6f218120f667be2f16161988e44e22828589bf",
+    "eval/qwen2_5_vl/__init__.py": "7ff2c7aadabc9b5de4a6da7b7329c3abb327798643446ce72507c0cff97ecdfc",
+    "eval/qwen2_5_vl/configuration_qwen2_5_vl.py": "f1f915e16c2855a48eb992030096919fb90b0a2a601bea026ba2cc386b484e1f",
+    "eval/qwen2_5_vl/image_processing_qwen2_5_vl.py": "fab1b05b4b404eb16abfe83d82eec31ea328e17edbf78a316ff9e6b41cab7b09",
+    "eval/qwen2_5_vl/modeling_qwen2_5_vl_DTD.py": "6cadddc7c8fe096201ef278471f36f0636ed9c6042b51b0573d391ca7c1a848a",
+    "eval/qwen2_5_vl/modular_qwen2_5_vl.py": "b6d89e5974d0a285f2ab055fde6405561b03e537cb5ccf11d76dbf31163fc795",
+    "eval/qwen2_5_vl/processing_qwen2_5_vl.py": "3f8928d494a3d272ae724a91c157fd0a7b3394a376ac373e62ba76d001b861d0",
+    "eval/readme.md": "aabfbc47b5124f6dd45dfbee7be18d068946f8fece10a9752163dbd499babe17",
+    "eval/scripts/eval_ovobench.sh": "39603da19cb47bd65a428821671f1d6dc529c4a4fb97ebd8b2b5e70921f2f092",
+    "eval/scripts/eval_streamingbench.sh": "7d5fe90d204a087f210162cdf955614ac0ef5feec97ebb193e8a7dc03afd23a4",
+    "eval/scripts/ovobench.py": "ffa8e1907b20b132f902fa9ad801c146f8afc8b2c0bb84bb1ca490d3b9ba7d38",
+    "eval/scripts/streamingbench.py": "0c6e04498383e1775d283a899fc4e88daa4bd4fe777ecc402632698bf4e056fd",
+    "requirement.txt": "5080fc321cf139731162ab27e17841b58a1b62f63ed00e66866906e19fc69e12"
+  },
+  "original_upstream_sha256": {
+    "eval/readme.md": "a660dfaea66eecbe2cdf3b5e7dfe64efb1991e5e6e1ada4f3bd42a8dc2abba7c",
+    "eval/scripts/eval_ovobench.sh": "bee6894d2715993f8c0e4f4aeaa72526dcc665155d49a7786f0aa6a026b691df",
+    "eval/scripts/eval_streamingbench.sh": "95b400517bdf8b741c20bdad2276681c2d2c76ddee80427c4b4e591f1bdf4755",
+    "eval/scripts/ovobench.py": "44ff66618b75e8e85f68fcc4cb30c7cad4295a70f1f8e5df21da0d4fcb9f3be0",
+    "eval/scripts/streamingbench.py": "e4b5e22cb14f510eb9604acd68ad7d9d50cc85703f35ee3ef1a0917ef138108c"
+  },
+  "public_release_changes": "Replaced machine-specific path defaults/examples with portable placeholders; source hashes above describe the bundled release."
+}

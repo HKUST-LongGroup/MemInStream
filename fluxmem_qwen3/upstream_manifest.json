@@ -1,0 +1,32 @@
+{
+  "source_kind": "bundled_modified_snapshot",
+  "repository": "https://github.com/ShareLab-SII/FluxMem",
+  "revision": "6fdbf65b6f2af1a94ca41d542be5be86a565d338",
+  "contains_local_changes": true,
+  "baseline_entrypoint": "evaluation/ovobench/ovobench.py:get_response",
+  "sha256": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "398b5c199e41f642b813d451125358b83867c522720722cfb677cfa942717909",
+    "evaluation/ovobench/ovobench.py": "266c19afccd3a2678d90cf46016deadc9ee27aa131de7cb8959a032f9c6c7fc7",
+    "evaluation/ovobench/ovobench.sh": "3ac062300601e55be2a8e2e9b9359e298bf30f4535ee12ffe7c50149f6d644e2",
+    "models/qwen-vl-utils/pyproject.toml": "554b4208de7d1b801f7c6f463175a9b97ab2ab4f9fcef8133bb35cb704cc1fe3",
+    "models/qwen-vl-utils/src/qwen_vl_utils_fluxmem/__init__.py": "a0c454a56f2ba478731013afe1ba5d5d9caff652fe0ce51be1c315476e5c7905",
+    "models/qwen-vl-utils/src/qwen_vl_utils_fluxmem/vision_process.py": "24d8248ef46ddb5842ebb472de4133f3ef503f46afe815856e4ae3e3de57b7b5",
+    "models/qwen2-5-vl/pyproject.toml": "f97d7c2b63566af428d6f8f20e72d7572dd820699c774bc11a961cc3484161cf",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/__init__.py": "8b79d8ce8410707b2a80709719459bc34d8b0045b1b4461742d4259b18018818",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/configuration_qwen2_5_vl_fluxmem.py": "c64d22f64d3edd05842a93b82d4849cc50daec46d31de9c457438401c70638ff",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem.py": "3358ef383ce2e5d3acf5f23ce44153fc30401b99c4c7ccc3c2af8eb9594f9e53",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem_hybrid.py": "90e68b32eb2a2d0f82774b54f0a720a05543e58082a8adab6d1de0a5f2b2e07c",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem_hybrid_text.py": "c0209ffe2a368fc68cf8ff2fe5b71db6c00471b5d96f38164f014f9de2fe62e6",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem_v1.py": "240590562b1ecf2660a502170659693919ebac918406b551667ca7ba08f317d7",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem_v1x.py": "6e9ebd14ccca99ae0bd62036cc20821ccfc7fb09d14b9771cf92f3a1c341c627",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/fluxmem_v2.py": "d8639e7a366e2d86f27b048b78accd85a73ee2e36dca5bb58a8a1b05d4d43e95",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/modeling_qwen2_5_vl_fluxmem.py": "1c91dfe3cc89d6612308c22143ebc0cae58306154d6622f68dc456787c03c203",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/processing_qwen2_5_vl_fluxmem.py": "4db38ac20cc50d64d33516d5a9fcfcdf16552a74a40869fa41e2c846a486fabe",
+    "models/qwen2-5-vl/src/qwen2_5_vl_fluxmem/utils.py": "20f58271a4daa23d745ffba2a124e21250bd21d8a77df4eafa82071d791512db"
+  },
+  "original_upstream_sha256": {
+    "evaluation/ovobench/ovobench.py": "aef795ff39810a02aee6363c9f43bb72c6cbfaf3f7531dc9c956548201cf028f"
+  },
+  "public_release_changes": "Replaced machine-specific path defaults/examples with portable placeholders; source hashes above describe the bundled release."
+}
