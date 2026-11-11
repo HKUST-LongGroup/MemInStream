@@ -130,7 +130,7 @@ Archive members already include the `videos/` prefix, so extract into `data/MemI
 
 ## Prepare the Annotations
 
-**Annotations are pending upload to this repository.** The prepared annotation file is named `MemInStream/annotations.json`. Once it is available, download and extract the videos, then copy the annotations into the same dataset root:
+The annotations are provided in [`MemInStream/annotations.json`](MemInStream/annotations.json). After downloading and extracting the videos, copy the annotations into the same dataset root:
 
 ```bash
 cp MemInStream/annotations.json data/MemInStream/annotations.json
@@ -232,4 +232,4 @@ Models observe video frames in temporal order and maintain their memory as the s
 
 Ground-truth answers, evidence intervals, task labels, and required-context annotations are evaluation metadata and must not be supplied as model inputs. Evidence-only and post-evidence views are controlled diagnostic settings used to examine solvability and necessity; they should be reported separately from streaming memory evaluation.
 
-The benchmark's unified option-based evaluation asks models to select all correct options without disclosing their number. A prediction is correct only when its selected option set exactly matches the reference set. Report the sampling rate, visual input budget, and memory settings alongside accuracy to make comparisons interpretable. Release-specific evaluation commands will be documented with the annotations.
+The benchmark's unified option-based evaluation asks models to select all correct options without disclosing their number. A prediction is correct only when its selected option set exactly matches the reference set. Report the sampling rate, visual input budget, and memory settings alongside accuracy to make comparisons interpretable.
