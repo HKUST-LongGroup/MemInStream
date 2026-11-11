@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1026" height="256" viewBox="0 0 1026 256" role="img" aria-labelledby="title desc">
+<title id="title">MemInStream</title>
+<desc id="desc">MemInStream wordmark with a stack of video frames, in a blue, violet, and teal gradient.</desc>
+<defs>
+  <linearGradient id="wordmark" x1="276" y1="128" x2="1010" y2="128" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#448CFA"/>
+    <stop offset="0.48" stop-color="#8B6CEF"/>
+    <stop offset="1" stop-color="#22BDA6"/>
+  </linearGradient>
+</defs>
+<defs>
+  <linearGradient id="brand" x1="12" y1="16" x2="236" y2="232" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#448CFA"/>
+    <stop offset="0.52" stop-color="#8B6CEF"/>
+    <stop offset="1" stop-color="#22BDA6"/>
+  </linearGradient>
+</defs>
+<g fill="none" stroke="url(#brand)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M49 88h-3c-11 0-20 9-20 20v101c0 11 9 20 20 20h101c11 0 20-9 20-20v-3" opacity="0.46"/>
+  <path d="M75 61h-3c-11 0-20 9-20 20v101c0 11 9 20 20 20h101c11 0 20-9 20-20v-3" opacity="0.73"/>
+  <rect x="78" y="28" width="150" height="150" rx="29"/>
+</g>
+<path d="M139 73c-3-2-7 0-7 4v52c0 4 4 6 7 4l42-26c3-2 3-6 0-8z" fill="url(#brand)"/>
+
+<text x="276" y="164" fill="url(#wordmark)" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="-3">MemInStream</text>
+</svg>
