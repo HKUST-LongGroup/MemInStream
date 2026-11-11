@@ -226,6 +226,26 @@ print("Query time:", sample["query_time"])
 print("Question:", sample["question"])
 ```
 
+## Run Evaluation
+
+Evaluation code for different methods is organized in the following folders. Each folder's README provides environment setup, model downloads, inference commands, and scoring instructions.
+
+| Method | Folder | Instructions |
+| --- | --- | --- |
+| Qwen2.5-VL | [`qwen-eval/`](qwen-eval/) | [README](qwen-eval/README.md) |
+| Qwen3-VL | [`qwen-eval/`](qwen-eval/) | [README](qwen-eval/README.md) |
+| InternVL3.5 | [`internvl-eval/`](internvl-eval/) | [README](internvl-eval/README.md) |
+| LLaVA-OneVision | [`internvl-eval/`](internvl-eval/) | [README](internvl-eval/README.md) |
+| FluxMem (Qwen2.5-VL) | [`fluxmem_qwen25/`](fluxmem_qwen25/) | [README](fluxmem_qwen25/README.md) |
+| FluxMem (Qwen3-VL) | [`fluxmem_qwen3/`](fluxmem_qwen3/) | [README](fluxmem_qwen3/README.md) |
+| Response-G1 (Qwen2.5-VL / Qwen3-VL) | [`response-g1-eval/`](response-g1-eval/) | [README](response-g1-eval/README.md) |
+| HERMES (Qwen2.5-VL / LLaVA-OneVision) | [`hermes-eval/`](hermes-eval/) | [README](hermes-eval/README.md) |
+| Flash-VStream | [`flash_vstream-eval/`](flash_vstream-eval/) | [README](flash_vstream-eval/README.md) |
+| TimeChat-Online | [`timechat_online_eval/`](timechat_online_eval/) | [README](timechat_online_eval/README.md) |
+| StreamForest | [`streamforest/`](streamforest/) | [README](streamforest/README.md) |
+
+Run commands from the selected method's folder. Follow its environment instructions and set the annotation, video, and model paths to your local locations before running inference and scoring. Methods use different dependencies, so use the environment specified in each README.
+
 ## Evaluation Protocol
 
 Models observe video frames in temporal order and maintain their memory as the stream progresses. At each `query_time`, they answer using information available up to that point. Future frames must not be used. For contextual tasks, dialogue events enter the stream at their annotated timestamps.
