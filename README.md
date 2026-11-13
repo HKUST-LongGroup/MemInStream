@@ -16,8 +16,9 @@ Yuyang He<sup>3</sup>, Fang Liu<sup>4</sup>, Huankang Guan<sup>3</sup>, Jingyan 
 <p><a href="mailto:zheci@connect.ust.hk">zheci@connect.ust.hk</a> &nbsp;·&nbsp; <a href="mailto:longchen@ust.hk">longchen@ust.hk</a></p>
 
 <p>
+<a href="https://arxiv.org/pdf/2611.15640"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv" alt="Paper on arXiv"></a>
 <a href="https://hkust-longgroup.github.io/MemInStream"><img src="https://img.shields.io/badge/Project-Page-3B82F6" alt="Project Page"></a>
-<a href="https://huggingface.co/datasets/zizi32/v1"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Videos-yellow" alt="Videos on Hugging Face"></a>
+<a href="https://huggingface.co/datasets/zizi32/MemInStream"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Videos-yellow" alt="Videos on Hugging Face"></a>
 </p>
 
 </div>
@@ -69,7 +70,7 @@ The video repository is public. Authentication is normally unnecessary; if Huggi
 Run the following command from the root of this repository:
 
 ```bash
-hf download zizi32/v1 \
+hf download zizi32/MemInStream \
   --repo-type dataset \
   --include "videos_*.zip" \
   --local-dir ./data/MemInStream
@@ -85,7 +86,7 @@ Alternatively, use the Python API to download the same files:
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="zizi32/v1",
+    repo_id="zizi32/MemInStream",
     repo_type="dataset",
     allow_patterns="videos_*.zip",
     local_dir="./data/MemInStream",
@@ -95,7 +96,7 @@ snapshot_download(
 To download a single archive for an initial inspection:
 
 ```bash
-hf download zizi32/v1 videos_001.zip \
+hf download zizi32/MemInStream videos_001.zip \
   --repo-type dataset \
   --local-dir ./data/MemInStream
 ```
@@ -253,3 +254,19 @@ Models observe video frames in temporal order and maintain their memory as the s
 Ground-truth answers, evidence intervals, task labels, and required-context annotations are evaluation metadata and must not be supplied as model inputs. Evidence-only and post-evidence views are controlled diagnostic settings used to examine solvability and necessity; they should be reported separately from streaming memory evaluation.
 
 The benchmark's unified option-based evaluation asks models to select all correct options without disclosing their number. A prediction is correct only when its selected option set exactly matches the reference set. Report the sampling rate, visual input budget, and memory settings alongside accuracy to make comparisons interpretable.
+
+## Citation
+
+If you find MemInStream useful in your research, please cite our [paper](https://arxiv.org/abs/2611.15640):
+
+```bibtex
+@misc{he2026meminstream,
+  title={MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation},
+  author={Zhenqi He and Dunyuan Xu and Yang Bo and Kien T. Pham and Yanghao Wang and Shuhan Li and Xintong Guo and Yuyang He and Fang Liu and Huankang Guan and Jingyan Chen and Rui Liu and Long Chen},
+  year={2026},
+  eprint={2611.15640},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2611.15640}
+}
+```
